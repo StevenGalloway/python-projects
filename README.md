@@ -37,7 +37,7 @@ A collection of Python applications demonstrating end-to-end engineering across 
 
 ## Featured Projects
 
-### [AURA — Spa Booking Chatbot](https://github.com/StevenGalloway/aura-spa-chatbot)
+### [AURA - Spa Booking Chatbot](https://github.com/StevenGalloway/spa-booking-chatbot)
 Conversational AI platform for wellness service booking built on a **LangGraph** state machine with three sequential nodes: `intent_analysis → data_retrieval → appointment_trigger`. Intent classification uses a two-tier strategy: a **DistilBERT** model fine-tuned on 240 labeled wellness-booking examples, backed by keyword override rules for safety-critical intents (cancel, reschedule) that must never be misrouted. Supports booking, rescheduling, cancellation, pricing inquiry, and appointment status with full multi-turn conversation state.
 
 **Stack:** Python, FastAPI, LangGraph, DistilBERT (HuggingFace), Streamlit\
